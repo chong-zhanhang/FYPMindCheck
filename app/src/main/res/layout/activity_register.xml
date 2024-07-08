@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        tools:context=".ui.theme.RegisterActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sign Up as Therapist"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/primary_blue"
+                android:gravity="start"
+                android:id="@+id/registerTherapist"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Login"
+                android:textStyle="bold"
+                android:textColor="@color/primary_blue"
+                android:gravity="end"
+                android:id="@+id/login_user"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Name"
+            android:padding="10dp"
+            android:layout_marginVertical="10dp"
+            android:id="@+id/name" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:layout_marginVertical="10dp"
+            android:id="@+id/phoneNum" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:entries="@array/gender_array"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_background"
+            android:layout_marginVertical="10dp"
+            android:id="@+id/gender" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Select Date of Birth"
+            android:textAlignment="textStart"
+            android:drawableRight="@android:drawable/ic_menu_today"
+            android:padding="10dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/edit_text_background"
+            android:textAllCaps="false"
+            android:id="@+id/datePicker" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Email"
+            android:padding="10dp"
+            android:layout_marginVertical="10dp"
+            android:id="@+id/email" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Password"
+            android:padding="10dp"
+            android:layout_marginVertical="10dp"
+            android:id="@+id/password" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:backgroundTint="@color/primary_blue"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:text="REGISTER"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:id="@+id/register"/>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

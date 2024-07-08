@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "828117282114",
+    "project_id": "mindcheckdatacollectionapp",
+    "storage_bucket": "mindcheckdatacollectionapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828117282114:android:6c70fca75dda529ed06cdb",
+        "android_client_info": {
+          "package_name": "com.example.mindcheckdatacollectionapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANmuIyBWEs43etBbKbH18p9g7l4dLbqhg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
