@@ -6,6 +6,7 @@ MindCheck is an Android mobile application that detects depression based on user
 The 'app/src/main/com.example.mindcheckdatacollectionapp/' directory consists of all the development files for the Android app.
 The 'SampleKeyboardService.kt" file consists of codes to initialize the custom Fleksy keyboard for typing metadata collection.
 The 'ui.theme' folder consists of all the Java and Kotlin files for the activities and other class files, and the '/Fragments' folder consists of all the Android fragments.
+The 'res' folder consists of all the resources files including the layout files and the Manifest file.
 The backend server which handles requests to predict depression occurrence and requests to fine-tune user-specific depression detection models can be found through https://github.com/chong-zhanhang/MindCheckBackend
 
 ## Features
